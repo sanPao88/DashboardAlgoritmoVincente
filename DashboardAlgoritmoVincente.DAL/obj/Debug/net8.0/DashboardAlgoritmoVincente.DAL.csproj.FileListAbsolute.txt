@@ -1,0 +1,12 @@
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\bin\Debug\net8.0\DashboardAlgoritmoVincente.DAL.deps.json
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\bin\Debug\net8.0\DashboardAlgoritmoVincente.DAL.dll
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\bin\Debug\net8.0\DashboardAlgoritmoVincente.DAL.pdb
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.AssemblyInfoInputs.cache
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.AssemblyInfo.cs
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.csproj.CoreCompileInputs.cache
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.sourcelink.json
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.dll
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\refint\DashboardAlgoritmoVincente.DAL.dll
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\DashboardAlgoritmoVincente.DAL.pdb
+C:\AreaDiLavoro\src\DashboardAlgoritmoVincente\DashboardAlgoritmoVincente.DAL\obj\Debug\net8.0\ref\DashboardAlgoritmoVincente.DAL.dll

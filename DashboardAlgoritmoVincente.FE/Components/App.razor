@@ -1,0 +1,45 @@
+﻿@using DashboardAlgoritmoVincente.FE.Components.Shared
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <HeadOutlet />
+    <HeadImport></HeadImport>
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        <NavBar></NavBar>
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <BrandLogo></BrandLogo>
+            <Sidebar></Sidebar>
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <ContentHeader></ContentHeader>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                <Routes />
+                
+                </div><!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <Footer></Footer>
+
+        <ControlSidebar></ControlSidebar>
+    </div>
+    <!-- ./wrapper -->
+
+    <FooterImport></FooterImport>
+</body>
+
+</html>

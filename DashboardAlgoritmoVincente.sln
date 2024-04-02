@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardAlgoritmoVincente.FE", "DashboardAlgoritmoVincente.FE\DashboardAlgoritmoVincente.FE.csproj", "{52199FD1-B168-4D58-B6FD-9FAE4BBBBBC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardAlgoritmoVincente.DAL", "DashboardAlgoritmoVincente.DAL\DashboardAlgoritmoVincente.DAL.csproj", "{0C6E2884-A4C7-481A-A9E8-3245348C220D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52199FD1-B168-4D58-B6FD-9FAE4BBBBBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52199FD1-B168-4D58-B6FD-9FAE4BBBBBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52199FD1-B168-4D58-B6FD-9FAE4BBBBBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52199FD1-B168-4D58-B6FD-9FAE4BBBBBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6E2884-A4C7-481A-A9E8-3245348C220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6E2884-A4C7-481A-A9E8-3245348C220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6E2884-A4C7-481A-A9E8-3245348C220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6E2884-A4C7-481A-A9E8-3245348C220D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97A5ABDE-95C5-4B0E-B507-B7AD66894660}
+	EndGlobalSection
+EndGlobal

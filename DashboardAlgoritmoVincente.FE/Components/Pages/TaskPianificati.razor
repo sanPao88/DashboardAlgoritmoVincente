@@ -1,0 +1,83 @@
+﻿@page "/task-pianificati"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@using System.Threading.Tasks
+
+<PageTitle>Task Pianificati</PageTitle>
+
+<h1>Task Pianificati</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data Inizio</th>
+            <th>Data Fine</th>
+            <th>Tipologia</th>
+            <th>Stato</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in tasks)
+        {
+            <tr>
+                <td>@task.StartDate.ToShortDateString()</td>
+                <td>@task.EndDate.ToShortDateString()</td>
+                <td>@task.Type</td>
+                <td>@task.Status</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="() => ExecuteTask(task)" disabled="@task.IsRunning">
+                        @if (task.IsRunning)
+                        {
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        }
+                        Lancio Task
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<TaskItem> tasks = new List<TaskItem>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Carica i task pianificati
+        tasks = await LoadTasksAsync();
+    }
+
+    async Task ExecuteTask(TaskItem task)
+    {
+        // Imposta lo stato del task in esecuzione
+        task.IsRunning = true;
+
+        // Simula un'attesa asincrona per l'esecuzione del task
+        await Task.Delay(5000);
+
+        // Simula il completamento del task
+        task.Status = "Completato";
+        task.IsRunning = false;
+    }
+
+    async Task<List<TaskItem>> LoadTasksAsync()
+    {
+        // Simula il caricamento dei task da un'origine dati
+        await Task.Delay(1000); // Simulazione di un'attesa asincrona per il caricamento dei dati
+        return new List<TaskItem>
+        {
+            new TaskItem { StartDate = DateTime.Today.AddDays(-1), EndDate = DateTime.Today.AddDays(1), Type = "Tipo 1", Status = "In Esecuzione" },
+            new TaskItem { StartDate = DateTime.Today, EndDate = DateTime.Today.AddDays(2), Type = "Tipo 2", Status = "In Errore" },
+            new TaskItem { StartDate = DateTime.Today.AddDays(1), EndDate = DateTime.Today.AddDays(3), Type = "Tipo 3", Status = "Completato" }
+        };
+    }
+
+    public class TaskItem
+    {
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Type { get; set; }
+        public string Status { get; set; }
+        public bool IsRunning { get; set; }
+    }
+}
